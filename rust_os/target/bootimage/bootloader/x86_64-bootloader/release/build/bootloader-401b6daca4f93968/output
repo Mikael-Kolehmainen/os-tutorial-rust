@@ -1,7 +1,7 @@
-cargo:rerun-if-changed=/home/mikaelserv/Desktop/rust-os/os-tutorial-rust/rust_os/Cargo.toml
-cargo:rustc-link-search=native=/home/mikaelserv/Desktop/rust-os/os-tutorial-rust/rust_os/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-401b6daca4f93968/out
+cargo:rerun-if-changed=/home/guy/Desktop/rust-os/os-tutorial-rust/rust_os/Cargo.toml
+cargo:rustc-link-search=native=/home/guy/Desktop/rust-os/os-tutorial-rust/rust_os/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-401b6daca4f93968/out
 cargo:rustc-link-lib=static=kernel_bin-rust_os
 cargo:rerun-if-env-changed=KERNEL
 cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=/home/mikaelserv/Desktop/rust-os/os-tutorial-rust/rust_os/target/x86_64-rust_os/debug/rust_os
+cargo:rerun-if-changed=/home/guy/Desktop/rust-os/os-tutorial-rust/rust_os/target/x86_64-rust_os/debug/rust_os
 cargo:rerun-if-changed=build.rs
